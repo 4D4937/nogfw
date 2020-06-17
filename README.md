@@ -1,8 +1,5 @@
 # nogfw
 
-It rewrites the TCP window size announced in this segment. The window size is rewritten to a smaller, randomly chosen value. 
-That way, the client "fragments" its cipher list inside the TLS client hello. 
-
 # install
 ``` bash
 apt install libpcap-dev libnetfilter-queue-dev -y
